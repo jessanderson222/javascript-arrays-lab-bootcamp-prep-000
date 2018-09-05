@@ -11,7 +11,7 @@ function destructivelyPrependKitten(name) {
 }
 destructivelyPrependKitten("Ralph")
 
-function destructivelyRemoveLastKitten() {
+function destructivelyRemoveLastKitten(array) {
    return kittens.slice(0, array.length - 1)
   }
   destructivelyRemoveLastKitten(kittens) 
