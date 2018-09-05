@@ -29,6 +29,11 @@ function destructivelyRemoveFirstKitten(array) {
   function prependKitten(array, element) {
   return ["Arnold", ...kittens] 
   }
+  
+  function removeFirstKitten(array) {
+    array = kittens.slice(1)
+    return array
+  }
 
   function removeLastKitten(array) {
    return kittens.slice(0, kittens.length - 1)
