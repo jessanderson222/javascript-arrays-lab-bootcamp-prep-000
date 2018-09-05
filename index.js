@@ -25,6 +25,8 @@ function destructivelyRemoveFirstKitten(array) {
     function appendKitten(array, element) {
     return [...kittens, "Broom"]
   }
+  
+  
 
   function removeLastKitten(array) {
    return kittens.slice(0, kittens.length - 1)
