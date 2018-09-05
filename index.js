@@ -27,7 +27,7 @@ function destructivelyRemoveFirstKitten(array) {
   }
   
   function prependKitten(array, element) {
-  return ["Arno", ...kittens] 
+  return ["Arnold", ...kittens] 
   }
 
   function removeLastKitten(array) {
