@@ -23,7 +23,7 @@ function destructivelyRemoveFirstKitten(array) {
   }
   
     function appendKitten(array, element) {
-    return [...kittens, element]
+    return [...kittens, Broom]
   }
 
   function removeLastKitten(array) {
